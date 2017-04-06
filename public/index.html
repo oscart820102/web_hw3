@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Firebase Hosting</title>
+    <style media="screen">
+      body {
+        font-family: Roboto, Arial, sans-serif;
+        background: #ECEFF1;
+        color: rgba(0,0,0,0.87);
+      }
+
+      a {
+        color: rgb(3,155,229);
+      }
+
+      #message {
+        max-width: 400px;
+        margin: 40px auto;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+        border-radius: 2px;
+        background: white;
+        padding: 16px 24px;
+      }
+
+      #message h1 {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        margin: 0 0 16px;
+      }
+
+      #message p {
+        font-weight: 300;
+        line-height: 150%;
+      }
+
+      #message ul {
+        list-style: none;
+        margin: 16px 0 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      #message li a {
+        display: inline-block;
+        padding: 8px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 500;
+        background: rgb(3,155,229);
+        color: white;
+        border: 1px solid rgb(3,155,229);
+        border-radius: 3px;
+        font-size: 14px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+      }
+    </style>
+
+
+<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAe7K-7fR1SKsyAnZk1MCbM3hoR9XOI-_c",
+    authDomain: "mypage-d75a0.firebaseapp.com",
+    databaseURL: "https://mypage-d75a0.firebaseio.com",
+    projectId: "mypage-d75a0",
+    storageBucket: "mypage-d75a0.appspot.com",
+    messagingSenderId: "1007474873649"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+  </head>
+  <body>
+    <div id="message">
+      <h1>鄭哲亞的履歷</h1>
+      <p>台中人<br>
+現居台北，目前就讀於政治大學-資訊科學系 四年級<br>
+喜歡學東學西，自己動手嘗試DIY。<br>
+該表現的時候不會怯場，勇於表達自己的想法。<br>
+	</p>
+
+
+<div>
+作品集
+
+ <img id="my_img1" width="400"  height="300" />
+ <img id="my_img2" width="400"  height="300" />
+ <img id="my_img3" width="400"  height="300" />
+</div>>
+
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>
